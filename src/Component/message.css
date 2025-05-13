@@ -1,0 +1,16 @@
+.user{
+    padding: 20px;
+    text-align: center;
+    margin: 3%;
+    width: 20%;
+    justify-self:flex-start;
+    box-shadow: 2px 2px 3px 5px rgb(232, 66, 66);
+}
+.b1{
+    border-style: none;
+    background-color: rgb(249, 249, 249);
+    font-size: 50px;
+    -webkit-text-fill-color: red;
+    transition: 10s;
+    transform: scaleX(1.1);
+}

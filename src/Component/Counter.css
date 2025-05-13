@@ -1,0 +1,13 @@
+.Counter{
+   justify-self: center;
+   margin: 2%;
+   box-shadow: 3px 3px 3px 3px darkcyan;
+   width: 20%;
+   padding: 20px;
+   text-align: center;
+}
+button{
+    padding: 5px;
+    background-color: aquamarine;
+    margin: 2%;
+}
