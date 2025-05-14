@@ -14,3 +14,18 @@
     transition: 10s;
     transform: scaleX(1.1);
 }
+label{
+    font-size: medium;
+    justify-self: flex-start;
+}
+input{
+    margin: 2%;
+    padding: 5px;
+    
+}
+.b3{
+    padding: 5px;
+    width: 40%;
+    font-size: large;
+    border-style: none;
+}
