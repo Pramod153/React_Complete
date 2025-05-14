@@ -7,11 +7,12 @@ import ShowText from "./Component/ShowText";
 import FruitList from "./Component/FruitList";
 import UserDetails from "./Component/UserDetails";
 import LoginForm from "./Component/LoginForm";
+import ToDoList from "./Component/ToDOList";
 
 
 function App() {
   return (
-    <div>
+    <div >
       <Greetings/>
       
       <Counter/>
@@ -21,6 +22,7 @@ function App() {
       <FruitList/>
       <UserDetails/>
       <LoginForm/>
+      <ToDoList/>
     </div>
   );
 }

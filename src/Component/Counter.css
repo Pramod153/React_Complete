@@ -11,3 +11,7 @@ button{
     background-color: aquamarine;
     margin: 2%;
 }
+li{
+  list-style-type:lower-roman;
+  
+}

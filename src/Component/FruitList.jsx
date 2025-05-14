@@ -11,11 +11,11 @@ function FruitList() {
   return (
     <div className='user'>
         <h2>Fruits List</h2>
-      <ol>
+      
         {Fruits.map((Fruit) => (
             <li key={Fruit.id}>{Fruit.name}</li>
         ) )}
-      </ol>
+      
     </div>
   )
 }
