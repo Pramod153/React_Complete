@@ -10,6 +10,7 @@ import LoginForm from "./Component/LoginForm";
 import ToDoList from "./Component/ToDOList";
 import ProductCard from "./Component/ProductCard";
 import Notification from "./Component/Notification";
+import List from "./Component/List";
 
 
 function App() {
@@ -24,10 +25,11 @@ function App() {
       <FruitList/>
       <UserDetails/>
       <LoginForm/>
-      <ToDoList/>
+      <ToDoList task1='play' task2 = 'Read' task3 ='Fight' task4='sleep' task5='seminar'/>
       <ProductCard name= 'Keyboard' Price ='900' desc=''/>
       <Notification isloggedIn={true}/>
       <Notification isloggedIn={false}/>
+      <List task1='play' task2 = 'Read' task3 ='Fight' task4='sleep' task5='seminar' />
     </div>
   );
 }
