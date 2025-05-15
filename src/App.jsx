@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Greetings from "./Component/Greetings";
 import Message from "./Component/Message";
 import Counter from "./Component/Counter";
@@ -11,9 +11,14 @@ import ToDoList from "./Component/ToDOList";
 import ProductCard from "./Component/ProductCard";
 import Notification from "./Component/Notification";
 import List from "./Component/List";
+import ColorChange from "./Component/ColorChange";
 
 
 function App() {
+  const [color, setColor]= useState("");
+   function change(){
+    setColor('red');
+   }
   return (
     <div >
       <Greetings/>
@@ -30,6 +35,7 @@ function App() {
       <Notification isloggedIn={true}/>
       <Notification isloggedIn={false}/>
       <List task1='play' task2 = 'Read' task3 ='Fight' task4='sleep' task5='seminar' />
+      <ColorChange color={color} changecolor={change} />
     </div>
   );
 }
