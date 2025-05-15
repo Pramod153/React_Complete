@@ -8,6 +8,7 @@ import FruitList from "./Component/FruitList";
 import UserDetails from "./Component/UserDetails";
 import LoginForm from "./Component/LoginForm";
 import ToDoList from "./Component/ToDOList";
+import ProductCard from "./Component/ProductCard";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <UserDetails/>
       <LoginForm/>
       <ToDoList/>
+      <ProductCard name= 'Keyboard' Price ='900' desc=''/>
     </div>
   );
 }
