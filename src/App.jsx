@@ -9,6 +9,7 @@ import UserDetails from "./Component/UserDetails";
 import LoginForm from "./Component/LoginForm";
 import ToDoList from "./Component/ToDOList";
 import ProductCard from "./Component/ProductCard";
+import Notification from "./Component/Notification";
 
 
 function App() {
@@ -25,6 +26,8 @@ function App() {
       <LoginForm/>
       <ToDoList/>
       <ProductCard name= 'Keyboard' Price ='900' desc=''/>
+      <Notification isloggedIn={true}/>
+      <Notification isloggedIn={false}/>
     </div>
   );
 }
