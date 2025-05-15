@@ -12,17 +12,18 @@ import ProductCard from "./Component/ProductCard";
 import Notification from "./Component/Notification";
 import List from "./Component/List";
 import ColorChange from "./Component/ColorChange";
+import TaskManager from "./Component/TaskManager";
 
 
 function App() {
   const [color, setColor]= useState("");
    function change(){
-    setColor('red');
+    setColor('green');
    }
+  
   return (
     <div >
       <Greetings/>
-      
       <Counter/>
       <Message name1='Pramod' age='24'/>
       <Login/>
@@ -36,6 +37,7 @@ function App() {
       <Notification isloggedIn={false}/>
       <List task1='play' task2 = 'Read' task3 ='Fight' task4='sleep' task5='seminar' />
       <ColorChange color={color} changecolor={change} />
+      <TaskManager/>
     </div>
   );
 }
