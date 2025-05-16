@@ -13,6 +13,7 @@ import Notification from "./Component/Notification";
 import List from "./Component/List";
 import ColorChange from "./Component/ColorChange";
 import TaskManager from "./Component/TaskManager";
+import Clock from "./Component/Clock";
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
       <List task1='play' task2 = 'Read' task3 ='Fight' task4='sleep' task5='seminar' />
       <ColorChange color={color} changecolor={change} />
       <TaskManager/>
+      <Clock/>
     </div>
   );
 }
