@@ -15,6 +15,7 @@ import ColorChange from "./Component/ColorChange";
 import TaskManager from "./Component/TaskManager";
 import Clock from "./Component/Clock";
 import PostList from "./Component/PostList";
+import RandomQuote from "./Component/RandomQuote";
 
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
       <TaskManager/>
       <Clock/>
       <PostList/>
+      <RandomQuote/>
     </div>
   );
 }
