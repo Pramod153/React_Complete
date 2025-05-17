@@ -14,6 +14,7 @@ import List from "./Component/List";
 import ColorChange from "./Component/ColorChange";
 import TaskManager from "./Component/TaskManager";
 import Clock from "./Component/Clock";
+import PostList from "./Component/PostList";
 
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
       <ColorChange color={color} changecolor={change} />
       <TaskManager/>
       <Clock/>
+      <PostList/>
     </div>
   );
 }
