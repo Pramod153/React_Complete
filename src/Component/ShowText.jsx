@@ -5,7 +5,7 @@ function ShowText() {
         setText(prev => !prev);
     };
   return (
-    <div>
+    <div className='Counter'>
       <button onClick={ToggleText}>
         {text ? 'hide ': 'show text'}
       </button>

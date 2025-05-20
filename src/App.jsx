@@ -17,6 +17,7 @@ import Clock from "./Component/Clock";
 import PostList from "./Component/PostList";
 import RandomQuote from "./Component/RandomQuote";
 import UseLoginState from "./Component/UseLoginState";
+import FeedbackForm from "./Component/FeedbackForm";
 
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
       <PostList/>
       <RandomQuote/>
       <UseLoginState/>
+      <FeedbackForm/>
     </div>
   );
 }
